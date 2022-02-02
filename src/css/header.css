@@ -1,0 +1,37 @@
+:root {
+  --light-black: rgb(47, 47, 47);
+  --other-black: rgb(25, 25, 25);
+  --custom-text: rgb(175, 175, 175);
+  --custom-pink: rgb(246, 186, 195);
+}
+
+.navbar {
+  background-color: black;
+  position: fixed;
+  width: 100vw;
+}
+
+a.navbar-item:hover,
+.navbar-link:hover,
+.navbar-dropdown a.navbar-item:hover,
+.navbar-link:focus {
+  background-color: var(--light-black);
+}
+
+.navbar-item,
+.navbar-link,
+.title,
+.subtitle,
+.content h4,
+.content h5,
+a.navbar-item:hover,
+.navbar-link:hover,
+.navbar-dropdown a.navbar-item:hover,
+.navbar-link:focus {
+  color: var(--custom-text);
+}
+
+.navbar-dropdown {
+  background-color: black;
+  border-top: 3px solid black;
+}

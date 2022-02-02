@@ -1,0 +1,48 @@
+:root {
+  --light-black: rgb(47, 47, 47);
+  --other-black: rgb(25, 25, 25);
+  --custom-text: rgb(175, 175, 175);
+  --custom-pink: rgb(246, 186, 195);
+}
+
+#banner {
+  background-color: var(--light-black);
+}
+
+#cherry-blossom {
+  transform: rotateY(180deg) scale(1, 0.75) rotate(0.05turn) translateY(-125px)
+    translateX(-50px);
+}
+
+#img-box {
+  height: fit-content;
+}
+
+.fade {
+  opacity: 0;
+  position: relative;
+  animation: fade 1s linear forwards;
+}
+
+#fade-2 {
+  animation-delay: 1.25s;
+}
+
+#fade-3 {
+  animation-delay: 2.5s;
+}
+
+#fade-4 {
+  animation-delay: 3.75s;
+}
+
+/* animations */
+@keyframes fade {
+  0% {
+    top: 20px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
