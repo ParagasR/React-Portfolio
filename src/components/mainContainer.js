@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import About from "./about";
-import Projects from "./projects";
+import Project1 from './project1';
+import Project2 from './project2';
+import Project3 from './project3';
+import Project4 from './project4';
 import Contact from "./contact";
 import Resume from "./resume";
 import Header from "./header";
@@ -11,14 +14,21 @@ export default function mainContainter() {
   const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
-    if (currentPage === "Projects") {
-      return <Projects />;
-    } else if (currentPage === "Resume") {
-      return <Resume />;
-    } else if (currentPage === "Contact") {
-      return <Contact />;
-    } else {
-      return <About />;
+    switch (currentPage) {
+      case "Project1":
+        return <Project1 />
+      case "Project2":
+        return <Project2 />
+      case "Project3":
+        return <Project3 />
+      case "Project4":
+        return <Project4 />
+      case "Contact":
+        return <Contact />
+      case "Resume":
+        return <Resume />
+      default:
+        return <About />
     }
   };
 

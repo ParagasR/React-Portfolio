@@ -2,7 +2,7 @@ import "../css/backgroundColor.css";
 
 const mainExport = () => {
   return (
-    <div className="content">
+    <div className="content m-0">
       <div className="hero-body columns fade m-0 pt-6" id="bio">
         <div className="container column is-5 dont-select">
           <h5>Kumusta! I'm Ryan and welcome to my portfolio.</h5>{" "}
