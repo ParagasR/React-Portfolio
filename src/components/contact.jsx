@@ -1,8 +1,10 @@
+import "../css/cursor.css";
+
 const mainExport = () => {
   return (
     <div>
       <div
-        className="hero-body columns fade dont-select m-0 pt-6"
+        className="hero-body columns dont-select m-0 pt-6"
         id="contact-content"
       >
         <div className="container column is-5 has-text-centered">
@@ -25,7 +27,7 @@ const mainExport = () => {
               </h3>
             </li>
             <li className="mt-6">
-              <h3>(805) 603-9980</h3>
+              <h3>(720) 750-2417</h3>
             </li>
           </ul>
         </div>

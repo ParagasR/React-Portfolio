@@ -1,12 +1,9 @@
 import TPG from "../media/TPG-preview.png";
-
+import "../css/cursor.css";
 const mainExport = () => {
   return (
-    <div>
-      <div
-        className="hero-body columns fade dont-select m-0 pt-6"
-        id="project-2"
-      >
+    <div className="content m-0">
+      <div className="hero-body columns dont-select m-0 pt-6" id="project-2">
         <div className="container column is-5">
           <h4>Team Profile Generator</h4>
           <h5>

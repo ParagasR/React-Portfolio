@@ -1,8 +1,12 @@
+import "../css/footer.css";
+
 const mainExport = () => {
   return (
-    <footer className="footer content m-0 p-0">
-      <div className="">
-        <h1>made with love</h1>
+    <footer className="footer content m-0 p-4">
+      <div>
+        <img src={} />
+        <img />
+        <img />
       </div>
     </footer>
   );

@@ -28,12 +28,12 @@ const mainExport = ({ currentPage, handlePage }) => {
   };
 
   return (
-    <div>
+    <header>
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div id="navbar" className="navbar-menu mx-3">
           <div className="navbar-start">
             <a className="navbar-item page" id="about" onClick={pageHandler}>
-              Ryan
+              Ryan Paragas
             </a>
 
             <a className="navbar-item page" id="resume" onClick={pageHandler}>
@@ -85,13 +85,13 @@ const mainExport = ({ currentPage, handlePage }) => {
               Github
             </a>
 
-            <a className="navbar-item page" id="contact" onClick={handlePage}>
+            <a className="navbar-item page" id="contact" onClick={pageHandler}>
               Contact
             </a>
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 

@@ -1,12 +1,10 @@
 import RG from "../media/RG-preview.mp4";
-
+import "../css/videoPlayer.css";
+import "../css/cursor.css";
 const mainExport = () => {
   return (
-    <div>
-      <div
-        className="hero-body columns fade dont-select m-0 pt-6"
-        id="project-3"
-      >
+    <div className="content m-0">
+      <div className="hero-body columns dont-select m-0 pt-6" id="project-3">
         <div className="container column is-5">
           <h4>ReadMe Generator</h4>
           <h5>
@@ -24,7 +22,6 @@ const mainExport = () => {
         </div>
         <div className="container column is-5">
           <iframe
-            style={"width:700px;height:394px;"}
             src={RG}
             scrolling="no"
             border="0"

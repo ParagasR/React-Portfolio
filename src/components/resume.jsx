@@ -1,8 +1,8 @@
 const mainExport = () => {
   return (
-    <div>
+    <div className="content m-0">
       <div
-        className="hero-body fade dont-select m-0 columns is-flex-direction-column pt-6"
+        className="hero-body dont-select m-0 columns is-flex-direction-column pt-6"
         id="resume-content"
       >
         <h5 className="column">
@@ -14,9 +14,7 @@ const mainExport = () => {
         <div className="columns column">
           <div className="container column is-5">
             <h3>Experience:</h3>
-            <h5 style="text-decoration: underline;" class="mb-0 pb-0">
-              UCHealth
-            </h5>
+            <h5 className="mb-0 pb-0">UCHealth</h5>
             <h5 className="mt-1 pt-0">
               Virtual Health Technician | 2020 - Present
             </h5>
@@ -27,9 +25,7 @@ const mainExport = () => {
               Virtual Urgent Care, and participating in the development in the
               DHRC program.
             </h5>
-            <h5 style="text-decoration: underline;" className="mb-0 pb-0">
-              Amtote International
-            </h5>
+            <h5 className="mb-0 pb-0">Amtote International</h5>
             <h5 className="mt-1 pt-0">Service Technician | 2017 - 2019</h5>
             <h5 className="mb-3">
               Worked in various locations ensuring that ticket machines were
