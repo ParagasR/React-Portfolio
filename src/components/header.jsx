@@ -10,17 +10,8 @@ const mainExport = ({ currentPage, handlePage }) => {
       case "contact":
         handlePage("Contact");
         break;
-      case "project-1":
-        handlePage("Project1");
-        break;
-      case "project-2":
-        handlePage("Project2");
-        break;
-      case "project-3":
-        handlePage("Project3");
-        break;
-      case "project-4":
-        handlePage("Project4");
+      case "projects":
+        handlePage("Portfolio");
         break;
       default:
         handlePage("About");
@@ -39,40 +30,9 @@ const mainExport = ({ currentPage, handlePage }) => {
             <a className="navbar-item page" id="resume" onClick={pageHandler}>
               Resume
             </a>
-
-            <div className="navbar-item is-hoverable">
-              <a className="navbar-link">Projects</a>
-              <div className="navbar-dropdown">
-                <a
-                  className="navbar-item page"
-                  id="project-1"
-                  onClick={pageHandler}
-                >
-                  Insomniac's Dashboard
+              <a className="navbar-link" id="projects" onClick={pageHandler}>
+                Projects
                 </a>
-                <a
-                  className="navbar-item page"
-                  id="project-2"
-                  onClick={pageHandler}
-                >
-                  Team Profile Generator
-                </a>
-                <a
-                  className="navbar-item page"
-                  id="project-3"
-                  onClick={pageHandler}
-                >
-                  Readme Generator
-                </a>
-                <a
-                  className="navbar-item page"
-                  id="project-4"
-                  onClick={pageHandler}
-                >
-                  Weather Dashboard
-                </a>
-              </div>
-            </div>
           </div>
 
           <div className="navbar-end">
